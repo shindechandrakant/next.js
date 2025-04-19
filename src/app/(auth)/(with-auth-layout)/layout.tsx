@@ -7,10 +7,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header>
-          <h1>Parent Header</h1>
+          <h1>Children Header</h1>
         </header>
+        <h2>Inner Layout</h2>
         {children}
-        <h2>Application root file</h2>
       </body>
     </html>
   );
