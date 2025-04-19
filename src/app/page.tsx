@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 function Home() {
@@ -5,6 +6,7 @@ function Home() {
     <html>
       <body>
         <h1>Hello World</h1>
+        <Link href="/blog">Blog</Link>
       </body>
     </html>
   );
