@@ -8,6 +8,9 @@ export default function OrderProduct() {
     console.log("placing your order");
     router.replace("/");
   };
+
+  throw new Error("hello");
+
   return (
     <>
       <div>OrderProduct</div>

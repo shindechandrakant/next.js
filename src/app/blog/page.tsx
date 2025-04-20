@@ -1,5 +1,11 @@
 import React from "react";
 
-export default function Blog() {
+export default async function Blog() {
+  await new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(0);
+    }, 2000);
+  });
+
   return <div>Blog</div>;
 }
